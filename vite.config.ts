@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "./",
+  base: mode === 'production' ? '/web-portfolio-touch/' : './',
   build: {
     outDir: "dist",
     assetsDir: "assets",
