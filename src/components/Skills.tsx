@@ -2,33 +2,43 @@
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "JavaScript", level: 95 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "Tailwind CSS", level: 85 }
+        { name: "JavaScript", level: 90 },
+        { name: "PHP", level: 85 },
+        { name: "Java", level: 80 },
+        { name: "C/C++", level: 75 },
+        { name: "SQL", level: 90 }
+      ]
+    },
+    {
+      title: "Backend Frameworks",
+      skills: [
+        { name: "Express.js", level: 90 },
+        { name: "Laravel", level: 85 },
+        { name: "Spring Boot", level: 80 },
+        { name: "Lumen", level: 85 },
+        { name: "Node.js", level: 90 }
+      ]
+    },
+    {
+      title: "Database & Cloud",
+      skills: [
+        { name: "MySQL", level: 90 },
+        { name: "PostgreSQL", level: 85 },
+        { name: "MongoDB", level: 80 },
+        { name: "AWS", level: 85 },
+        { name: "Docker", level: 80 }
       ]
     },
     {
       title: "Tools & Technologies",
       skills: [
-        { name: "Git/GitHub", level: 85 },
-        { name: "Webpack", level: 70 },
-        { name: "Vite", level: 80 },
-        { name: "NPM/Yarn", level: 85 },
-        { name: "VS Code", level: 90 }
-      ]
-    },
-    {
-      title: "Backend & Database",
-      skills: [
-        { name: "Node.js", level: 75 },
-        { name: "Firebase", level: 80 },
-        { name: "MongoDB", level: 70 },
-        { name: "REST APIs", level: 85 },
-        { name: "GraphQL", level: 65 }
+        { name: "Git/GitHub", level: 90 },
+        { name: "Jenkins", level: 75 },
+        { name: "REST API", level: 90 },
+        { name: "Microservices", level: 85 },
+        { name: "Linux/Ubuntu", level: 80 }
       ]
     }
   ];
@@ -38,15 +48,15 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Skills & Keahlian
+            Skills & Expertise
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Teknologi dan tools yang saya kuasai untuk mengembangkan aplikasi web modern
+            Technologies and tools I use to build robust backend solutions
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {skillCategories.map((category, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300 animate-fade-in">
               <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">{category.title}</h3>
@@ -60,7 +70,7 @@ const Skills = () => {
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div 
-                        className="bg-gradient-to-r from-blue-600 to-purple-600 h-2 rounded-full transition-all duration-1000 ease-out"
+                        className="bg-gradient-to-r from-blue-600 to-cyan-600 h-2 rounded-full transition-all duration-1000 ease-out"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>

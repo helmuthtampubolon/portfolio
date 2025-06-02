@@ -1,27 +1,27 @@
 
-import { Code, Coffee, Heart, Zap } from 'lucide-react';
+import { Code, Coffee, Database, Zap } from 'lucide-react';
 
 const About = () => {
   const highlights = [
     {
       icon: <Code className="w-8 h-8 text-blue-600" />,
       title: "Clean Code",
-      description: "Menulis kode yang bersih, mudah dibaca, dan maintainable"
+      description: "Writing maintainable and scalable backend solutions"
     },
     {
-      icon: <Zap className="w-8 h-8 text-yellow-600" />,
-      title: "Fast Performance",
-      description: "Mengoptimalkan performa untuk pengalaman pengguna terbaik"
+      icon: <Database className="w-8 h-8 text-cyan-600" />,
+      title: "Database Expert",
+      description: "Experienced with SQL and NoSQL database management"
     },
     {
-      icon: <Heart className="w-8 h-8 text-red-600" />,
-      title: "User Experience",
-      description: "Fokus pada desain yang user-friendly dan intuitive"
+      icon: <Zap className="w-8 h-8 text-emerald-600" />,
+      title: "Performance",
+      description: "Optimizing API response time and resource usage"
     },
     {
-      icon: <Coffee className="w-8 h-8 text-brown-600" />,
-      title: "Continuous Learning",
-      description: "Selalu mengikuti perkembangan teknologi terbaru"
+      icon: <Coffee className="w-8 h-8 text-orange-600" />,
+      title: "Problem Solver",
+      description: "Analytical mindset with strong troubleshooting skills"
     }
   ];
 
@@ -30,32 +30,35 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Tentang Saya
+            About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
+            <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl flex items-center justify-center">
               <div className="text-6xl">👨‍💻</div>
             </div>
           </div>
 
           <div className="animate-fade-in">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Frontend Developer dengan Passion untuk Inovasi
+              Backend Engineer with Passion for Innovation
             </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Saya adalah seorang Frontend Developer dengan pengalaman dalam menciptakan 
-              aplikasi web yang modern dan responsif. Dengan keahlian dalam React, TypeScript, 
-              dan teknologi web terkini, saya selalu berusaha memberikan solusi terbaik untuk 
-              setiap project.
+              I'm a Backend Engineer with 2.5 years of experience in application development 
+              and database management. Proficient in programming languages such as JavaScript, 
+              PHP, and Java, with expertise in frameworks like Express.js, Laravel, and Spring Boot.
+            </p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Currently working at PT. Alfa Rekacipta Kreasi (Weekend Inc) as a Backend Developer, 
+              where I maintain and optimize APIs for e-commerce applications using microservices 
+              architecture and cloud technologies like AWS.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Saya percaya bahwa teknologi harus mudah digunakan dan memberikan value nyata 
-              bagi pengguna. Oleh karena itu, saya selalu fokus pada user experience dan 
-              performa aplikasi.
+              I'm enthusiastic about roles requiring analytical and problem-solving skills, 
+              while continuously learning new technologies and best practices in backend development.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

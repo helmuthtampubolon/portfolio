@@ -3,9 +3,9 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Github size={20} />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin size={20} />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail size={20} />, href: "mailto:your.email@example.com", label: "Email" }
+    { icon: <Github size={20} />, href: "https://github.com/helmuthtampubolon", label: "GitHub" },
+    { icon: <Linkedin size={20} />, href: "https://linkedin.com/in/helmuth-simon-tampubolon-18935717a/", label: "LinkedIn" },
+    { icon: <Mail size={20} />, href: "mailto:helmuths.tampubolon@gmail.com", label: "Email" }
   ];
 
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-gray-400 flex items-center justify-center md:justify-start">
-              Made with <Heart className="w-4 h-4 text-red-500 mx-1" /> by Developer
+              Made with <Heart className="w-4 h-4 text-red-500 mx-1" /> by Helmuth Simon Tampubolon
             </p>
             <p className="text-sm text-gray-500 mt-1">
               © {new Date().getFullYear()} All rights reserved.

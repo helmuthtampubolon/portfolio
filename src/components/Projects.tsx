@@ -5,28 +5,28 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Platform e-commerce modern dengan React, TypeScript, dan Stripe integration. Fitur lengkap dengan cart, checkout, dan payment processing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "E-Commerce Backend API",
+      description: "Maintaining and optimizing API backend for ayo src and ayo qoncierge e-commerce applications using Lumen/Laravel and MySQL with microservices architecture.",
+      image: "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=600&h=400&fit=crop",
+      tech: ["Laravel", "MySQL", "AWS", "Docker", "Jenkins"],
+      github: "https://github.com/helmuthtampubolon",
+      demo: "#"
     },
     {
-      title: "Task Management App",
-      description: "Aplikasi manajemen tugas dengan drag & drop, real-time collaboration, dan dark mode. Built dengan React dan Firebase.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["React", "Firebase", "Material-UI", "Redux"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "AWS Lambda Data Processing",
+      description: "Developed AWS Lambda function using JavaScript to trigger AWS Batch jobs for automated data insertion from Parquet files uploaded to S3 bucket.",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+      tech: ["AWS Lambda", "JavaScript", "AWS Batch", "S3", "PostgreSQL"],
+      github: "https://github.com/helmuthtampubolon",
+      demo: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "Dashboard cuaca dengan forecast 7 hari, maps integration, dan beautiful data visualization menggunakan Chart.js.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["React", "Chart.js", "OpenWeather API", "Leaflet"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      title: "Travel Route Recommendation",
+      description: "Final project: Travel Route Recommendation System Using Genetic Algorithm - an intelligent system for optimizing travel routes.",
+      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+      tech: ["Java", "Genetic Algorithm", "Spring Boot", "MySQL"],
+      github: "https://github.com/helmuthtampubolon",
+      demo: "#"
     }
   ];
 
@@ -35,11 +35,11 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Project Saya
+            My Projects
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Berikut adalah beberapa project yang telah saya kerjakan menggunakan teknologi modern
+            Here are some projects I've worked on using modern technologies and best practices
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const Projects = () => {
                   </Button>
                   <Button 
                     size="sm" 
-                    className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                    className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700"
                     onClick={() => window.open(project.demo, '_blank')}
                   >
                     <ExternalLink size={16} />

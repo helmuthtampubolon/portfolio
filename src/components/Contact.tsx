@@ -23,8 +23,21 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    toast.success('Pesan berhasil dikirim! Saya akan membalas dalam waktu 24 jam.');
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject || 'Portfolio Contact');
+    const body = encodeURIComponent(
+      `Hi Helmuth,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}\n\nBest regards,\n${formData.name}`
+    );
+    const mailtoLink = `mailto:helmuths.tampubolon@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
+    toast.success('Opening email client. Message will be pre-filled for you!');
+    
+    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -32,14 +45,14 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      info: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      info: "helmuths.tampubolon@gmail.com",
+      link: "mailto:helmuths.tampubolon@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      info: "+62 812 3456 7890",
-      link: "tel:+6281234567890"
+      info: "(+62) 8-126-232-2051",
+      link: "tel:+6281262322051"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -54,11 +67,11 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Mari Berkolaborasi
+            Let's Collaborate
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Punya project menarik? Mari diskusi dan wujudkan ide Anda menjadi kenyataan
+            Have an interesting project? Let's discuss and turn your ideas into reality
           </p>
         </div>
 
@@ -67,9 +80,9 @@ const Contact = () => {
           <div className="animate-fade-in">
             <h3 className="text-2xl font-bold text-white mb-8">Get In Touch</h3>
             <p className="text-gray-300 mb-8 leading-relaxed">
-              Saya selalu terbuka untuk opportunity baru dan project yang menantang. 
-              Jangan ragu untuk menghubungi saya jika Anda memiliki pertanyaan atau 
-              ingin berdiskusi tentang kemungkinan kolaborasi.
+              I'm always open to new opportunities and challenging projects. 
+              Don't hesitate to contact me if you have any questions or 
+              want to discuss potential collaboration opportunities.
             </p>
 
             <div className="space-y-6">
@@ -79,7 +92,7 @@ const Contact = () => {
                   href={item.link}
                   className="flex items-center space-x-4 text-gray-300 hover:text-white transition-colors duration-300 group"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     {item.icon}
                   </div>
                   <div>
@@ -98,7 +111,7 @@ const Contact = () => {
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Nama Anda"
+                  placeholder="Your Name"
                   value={formData.name}
                   onChange={handleInputChange}
                   required
@@ -107,7 +120,7 @@ const Contact = () => {
                 <Input
                   type="email"
                   name="email"
-                  placeholder="Email Anda"
+                  placeholder="Your Email"
                   value={formData.email}
                   onChange={handleInputChange}
                   required
@@ -127,7 +140,7 @@ const Contact = () => {
               
               <Textarea
                 name="message"
-                placeholder="Pesan Anda"
+                placeholder="Your Message"
                 rows={5}
                 value={formData.message}
                 onChange={handleInputChange}
@@ -138,10 +151,10 @@ const Contact = () => {
               <Button 
                 type="submit"
                 size="lg"
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
+                className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white py-3 rounded-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
               >
                 <Send size={20} />
-                <span>Kirim Pesan</span>
+                <span>Send Message</span>
               </Button>
             </form>
           </div>
