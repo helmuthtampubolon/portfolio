@@ -1,32 +1,7 @@
 
-import { Code, Coffee, Database, Zap } from 'lucide-react';
-
 const About = () => {
-  const highlights = [
-    {
-      icon: <Code className="w-8 h-8 text-blue-600" />,
-      title: "Clean Code",
-      description: "Writing maintainable and scalable backend solutions"
-    },
-    {
-      icon: <Database className="w-8 h-8 text-cyan-600" />,
-      title: "Database Expert",
-      description: "Experienced with SQL and NoSQL database management"
-    },
-    {
-      icon: <Zap className="w-8 h-8 text-emerald-600" />,
-      title: "Performance",
-      description: "Optimizing API response time and resource usage"
-    },
-    {
-      icon: <Coffee className="w-8 h-8 text-orange-600" />,
-      title: "Problem Solver",
-      description: "Analytical mindset with strong troubleshooting skills"
-    }
-  ];
-
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -36,42 +11,65 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="animate-fade-in">
-            <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl flex items-center justify-center">
-              <div className="text-6xl">👨‍💻</div>
+          <div className="relative">
+            <div className="relative z-10">
+              <img 
+                src="./lovable-uploads/86977474-cd02-4826-82f6-9d6b31eafa2a.png"
+                alt="Helmuth Tampubolon" 
+                className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
+              />
             </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl transform rotate-6 opacity-20"></div>
           </div>
 
-          <div className="animate-fade-in">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Backend Engineer with Passion for Innovation
+          <div className="space-y-6">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Backend Developer & System Architect
             </h3>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              I'm a Backend Engineer with 2.5 years of experience in application development 
-              and database management. Proficient in programming languages such as JavaScript, 
-              PHP, and Java, with expertise in frameworks like Express.js, Laravel, and Spring Boot.
-            </p>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Currently working at PT. Alfa Rekacipta Kreasi (Weekend Inc) as a Backend Developer, 
-              where I maintain and optimize APIs for e-commerce applications using microservices 
-              architecture and cloud technologies like AWS.
-            </p>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              I'm enthusiastic about roles requiring analytical and problem-solving skills, 
-              while continuously learning new technologies and best practices in backend development.
-            </p>
+            
+            <div className="text-lg text-gray-600 space-y-4">
+              <p>
+                Passionate backend developer with expertise in building scalable, robust server-side applications. 
+                I specialize in creating efficient APIs, managing databases, and implementing secure authentication systems.
+              </p>
+              
+              <p>
+                With experience in multiple programming languages and frameworks, I focus on writing clean, 
+                maintainable code that follows industry best practices and design patterns.
+              </p>
+              
+              <p>
+                I enjoy solving complex problems and optimizing system performance to deliver exceptional 
+                user experiences through reliable backend infrastructure.
+              </p>
+            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {highlights.map((item, index) => (
-                <div key={index} className="flex items-start space-x-4 p-4 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors duration-300">
-                  <div className="flex-shrink-0">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
-                    <p className="text-sm text-gray-600">{item.description}</p>
-                  </div>
-                </div>
+            <div className="grid grid-cols-2 gap-8 pt-8">
+              <div className="text-center">
+                <div className="text-4xl font-bold text-blue-600">5+</div>
+                <div className="text-gray-600">Years Experience</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-bold text-blue-600">50+</div>
+                <div className="text-gray-600">Projects Completed</div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-3 pt-6">
+              {[
+                'Problem Solving',
+                'Team Collaboration', 
+                'Code Review',
+                'System Design',
+                'Performance Optimization',
+                'Security Best Practices'
+              ].map((skill, index) => (
+                <span 
+                  key={index}
+                  className="px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors duration-300"
+                >
+                  {skill}
+                </span>
               ))}
             </div>
           </div>

@@ -114,7 +114,6 @@ const Skills = () => {
           })}
         </div>
 
-        {/* Optional: Add floating elements for more interactivity */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-gray-50 rounded-full px-6 py-3">
             <div className="flex -space-x-2">
