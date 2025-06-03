@@ -1,26 +1,547 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>web-portfolio-touch</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helmuth Simon Tampubolon - Backend Engineer</title>
+    <meta name="description" content="Backend Engineer with 2.5+ years experience in JavaScript, PHP, Java">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">Helmuth Simon</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-    <meta property="og:title" content="web-portfolio-touch" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hi, I'm
+                <span class="hero-name">Helmuth Simon</span>
+            </h1>
+            <p class="hero-subtitle">Backend Engineer</p>
+            <p class="hero-description">
+                2.5 years of experience in application development and database management. 
+                Proficient in JavaScript, PHP, Java with frameworks like Express.js, Laravel, and Spring Boot.
+            </p>
+            <div class="hero-buttons">
+                <a href="#experience" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/helmuthtampubolon" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/helmuth-simon-tampubolon-18935717a/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:helmuths.tampubolon@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-placeholder">👨‍💻</div>
+                </div>
+                <div class="about-text">
+                    <h3>Backend Engineer with Passion for Innovation</h3>
+                    <p>I'm a Backend Engineer with 2.5 years of experience in application development and database management. Proficient in programming languages such as JavaScript, PHP, and Java, with expertise in frameworks like Express.js, Laravel, and Spring Boot.</p>
+                    <p>Currently working at PT. Alfa Rekacipta Kreasi (Weekend Inc) as a Backend Developer, where I maintain and optimize APIs for e-commerce applications using microservices architecture and cloud technologies like AWS.</p>
+                    <p>I'm enthusiastic about roles requiring analytical and problem-solving skills, while continuously learning new technologies and best practices in backend development.</p>
+                    
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code</h4>
+                                <p>Writing maintainable and scalable backend solutions</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-database"></i>
+                            <div>
+                                <h4>Database Expert</h4>
+                                <p>Experienced with SQL and NoSQL database management</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <h4>Performance</h4>
+                                <p>Optimizing API response time and resource usage</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-coffee"></i>
+                            <div>
+                                <h4>Problem Solver</h4>
+                                <p>Analytical mindset with strong troubleshooting skills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="section-line"></div>
+                <p>My professional journey as a Backend Engineer with 2.5+ years of experience</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Developer</h3>
+                            <div class="timeline-meta">
+                                <div class="company">
+                                    <i class="fas fa-building"></i>
+                                    PT. Alfa Rekacipta Kreasi (Weekend Inc)
+                                </div>
+                                <div class="period">
+                                    <i class="fas fa-calendar"></i>
+                                    March 2023 - Present
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Jakarta
+                                </div>
+                            </div>
+                        </div>
+                        <p>Responsible for maintaining API backend for ayo src and ayo qoncierge e-commerce applications using Lumen/Laravel and MySQL with microservices architecture.</p>
+                        <div class="achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Designed and implemented microservices architecture for scalability</li>
+                                <li>Developed AWS Lambda functions for automated data processing</li>
+                                <li>Optimized database queries reducing API response time</li>
+                                <li>Collaborated with DevOps for CI/CD using Jenkins and Docker</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Technical Consultant Analyst</h3>
+                            <div class="timeline-meta">
+                                <div class="company">
+                                    <i class="fas fa-building"></i>
+                                    PT Mitra Integrasi Informatika
+                                </div>
+                                <div class="period">
+                                    <i class="fas fa-calendar"></i>
+                                    October 2021 - October 2022
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Jakarta
+                                </div>
+                            </div>
+                        </div>
+                        <p>Developed backend applications for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL with monolithic architecture.</p>
+                        <div class="achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Developed backend applications for telecommunication company</li>
+                                <li>Worked on Indonesian Stock Exchange (IDX) projects</li>
+                                <li>Supported clients during UAT process</li>
+                                <li>Deployed applications using PM2 on premise servers</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Java Spring Boot</span>
+                            <span class="tech-tag">Red Hat OpenShift</span>
+                            <span class="tech-tag">AMQ Broker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Developer Intern</h3>
+                            <div class="timeline-meta">
+                                <div class="company">
+                                    <i class="fas fa-building"></i>
+                                    PT Pelita Transfer Nusantara (Transfree.id)
+                                </div>
+                                <div class="period">
+                                    <i class="fas fa-calendar"></i>
+                                    May 2021 - August 2021
+                                </div>
+                                <div class="location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Jakarta
+                                </div>
+                            </div>
+                        </div>
+                        <p>Involved in projects utilizing JavaScript (Node.js Framework) and MongoDB for financial transfer services.</p>
+                        <div class="achievements">
+                            <h4>Key Achievements:</h4>
+                            <ul>
+                                <li>Resolved bugs in existing backend services</li>
+                                <li>Added new features to Transfree's backend system</li>
+                                <li>Worked with Node.js and MongoDB stack</li>
+                                <li>Gained experience in fintech industry</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="section-line"></div>
+                <p>Technologies and tools I use to build robust backend solutions</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PHP</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C/C++</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Frameworks</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Express.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Laravel</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Spring Boot</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Lumen</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database & Cloud</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PostgreSQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git/GitHub</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Jenkins</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>REST API</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Microservices</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Linux/Ubuntu</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Collaborate</h2>
+                <div class="section-line"></div>
+                <p>Have an interesting project? Let's discuss and turn your ideas into reality</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always open to new opportunities and challenging projects. Don't hesitate to contact me if you have any questions or want to discuss potential collaboration opportunities.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>helmuths.tampubolon@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>(+62) 8-126-232-2051</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>Made with <i class="fas fa-heart"></i> by Helmuth Simon Tampubolon</p>
+                    <p>&copy; 2024 All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/helmuthtampubolon" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/helmuth-simon-tampubolon-18935717a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:helmuths.tampubolon@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
