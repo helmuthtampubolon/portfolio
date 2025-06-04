@@ -14,12 +14,12 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                src="./profile-photo.jpg"
                 alt="Helmuth Tampubolon" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face";
+                  target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face";
                 }}
               />
             </div>
