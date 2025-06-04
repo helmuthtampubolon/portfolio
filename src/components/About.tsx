@@ -14,9 +14,13 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="/web-portfolio-touch/86977474-cd02-4826-82f6-9d6b31eafa2a.png"
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
                 alt="Helmuth Tampubolon" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face";
+                }}
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl transform rotate-6 opacity-20"></div>
