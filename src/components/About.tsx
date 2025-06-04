@@ -14,7 +14,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="./86977474-cd02-4826-82f6-9d6b31eafa2a.png"
+                src="/web-portfolio-touch/86977474-cd02-4826-82f6-9d6b31eafa2a.png"
                 alt="Helmuth Tampubolon" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
               />
