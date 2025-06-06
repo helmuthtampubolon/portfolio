@@ -1,5 +1,5 @@
 
-import { Code2, Database, Server, Globe } from 'lucide-react';
+import React from 'react';
 
 const Skills = () => {
   const skillCategories = [
@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            #skills
+            Skills & Expertise
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
         </div>
@@ -34,13 +34,13 @@ const Skills = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {skillCategories.map((category, index) => (
-              <div key={index} className="bg-gray-800 rounded-lg p-6 border border-gray-700">
-                <h3 className="text-lg font-semibold text-white mb-4 border-b border-gray-600 pb-2">
+              <div key={index} className="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2">
                   {category.title}
                 </h3>
                 <ul className="space-y-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <li key={skillIndex} className="text-gray-300 text-sm">
+                    <li key={skillIndex} className="text-gray-700 text-sm">
                       {skill}
                     </li>
                   ))}
