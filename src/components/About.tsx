@@ -1,4 +1,5 @@
 
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -14,7 +15,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                src="/lovable-uploads/86977474-cd02-4826-82f6-9d6b31eafa2a.png"
                 alt="Helmuth Tampubolon" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 onError={(e) => {
@@ -84,3 +85,4 @@ const About = () => {
 };
 
 export default About;
+
