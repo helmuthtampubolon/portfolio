@@ -39,8 +39,8 @@ const Skills = () => {
                   {category.title}
                 </h3>
                 <ul className="space-y-2">
-                  {category.skills.map((skill, skillIndex) => (
-                    <li key={skillIndex} className="text-gray-700 text-sm">
+                  {category.skills.map((skill) => (
+                    <li key={skill} className="text-gray-700 text-sm">
                       {skill}
                     </li>
                   ))}
