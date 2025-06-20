@@ -33,8 +33,8 @@ const Hero = () => {
           </p>
           
           <p className="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
-            3 years of experience in application development and database management. 
-            Proficient in JavaScript, PHP, Java with frameworks like Express.js, Laravel, and Spring Boot.
+            A Backend Engineer with 3 years of experience in application development and database management. 
+            Proficient in JavaScript, PHP, and Java with frameworks like Express.js, Laravel, and Spring Boot.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

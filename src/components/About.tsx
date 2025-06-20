@@ -52,7 +52,7 @@ const About = () => {
 
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-600">3+</div>
+                <div className="text-4xl font-bold text-blue-600">3</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
@@ -65,6 +65,7 @@ const About = () => {
               <p className="text-sm text-gray-600 mb-2"><strong>Birth Date:</strong> 12th August 1999</p>
               <p className="text-sm text-gray-600 mb-2"><strong>Location:</strong> Jakarta, Indonesia</p>
               <p className="text-sm text-gray-600 mb-2"><strong>Phone:</strong> (+62) 8-126-232-2051</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>Email:</strong> helmuths.tampubolon@gmail.com</p>
               <p className="text-sm text-gray-600"><strong>Languages:</strong> Indonesian (Expert), English (Intermediate)</p>
             </div>
 
