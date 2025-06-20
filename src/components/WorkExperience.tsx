@@ -15,6 +15,7 @@ const WorkExperience = () => {
         "Reduced API response time and API resource usage by performing database query optimization and Server-Side Processing Optimization (asynchronous or job queues)",
         "Built and integrated the Call feature in the Ayo Qoncierge application, collaborating with Wiz to enable real-time call services",
         "Collaborated with DevOps team for CI/CD configuration using Jenkins, Docker to deploy applications in an isolated environment, source code management using Bitbucket",
+        "Collaborated with frontend team for user interface integration",
         "Collaborated with DevOps team to deploy AWS services such as EC2, S3, and RDS for cloud infrastructure to improve application performance and resilience",
         "Documented each developed backend on Google Spreadsheet and Postman",
         "Tested the developed backend using Postman and JMeter"
@@ -28,7 +29,7 @@ const WorkExperience = () => {
       location: "Jakarta",
       description: "Developed backend application for PT Indosat Tbk that based on Express JS (Nodejs Framework), Knex JS and PostgreSQL. Backend is developed using a monolithic architecture and deployed on an on premise server using PM2.",
       achievements: [
-        "Developed backend applications for telecommunication company (PT Indosat Tbk) using Express.js, Knex.js and PostgreSQL",
+        "Developed backend applications for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL",
         "Worked on application development, deployed application and supported clients during UAT process of applications on the Indonesian stock exchange (IDX)",
         "Worked on projects that using OCP RedHat, RedHat AMQ Broker, Java SpringBoot and PostgreSQL",
         "Deployed applications using PM2 on premise servers with monolithic architecture"
@@ -37,7 +38,7 @@ const WorkExperience = () => {
     },
     {
       title: "Backend Developer Intern",
-      company: "PT Pelita Transfer Nusantara (Transfree.id)",
+      company: "PT Pelita Transfer Nusantara Intern (Transfree.id)",
       period: "May 2021 - August 2021",
       location: "Jakarta",
       description: "Involved in projects that utilize Javascript (Nodejs Framework) and MongoDB.",
@@ -50,7 +51,7 @@ const WorkExperience = () => {
     },
     {
       title: "Teaching Assistant for Web Development Course",
-      company: "Institut Teknologi Del",
+      company: "Del Institute of Technology",
       period: "May 2021 - August 2021",
       location: "Laguboti",
       description: "Guided practical session for web development using PHP, such as Laravel framework, YII2 framework.",
@@ -65,7 +66,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="experience" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

@@ -5,27 +5,35 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["JavaScript", "PHP", "Java", "C", "C++"]
+      skills: ["C", "C++", "Java", "PHP", "JavaScript"]
     },
     {
-      title: "Backend Frameworks", 
-      skills: ["Express.js", "Laravel", "Spring Boot", "Node.js", "YII2"]
+      title: "Database Management System SQL", 
+      skills: ["MySQL", "SQL Server", "PostgreSQL"]
     },
     {
-      title: "Database Management",
-      skills: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB"]
+      title: "Application Framework",
+      skills: ["Node/Express JS", "Java SpringBoot", "Laravel"]
     },
     {
-      title: "Cloud & DevOps",
-      skills: ["AWS Lambda", "AWS EC2", "AWS S3", "AWS RDS", "AWS Batch", "Docker", "Jenkins", "PM2"]
+      title: "Database Management System NoSQL",
+      skills: ["MongoDB"]
     },
     {
-      title: "Development Tools",
-      skills: ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Postman", "JMeter"]
+      title: "Development Tools & Technologies",
+      skills: ["AMQ Stream", "REST API", "Git", "GitLab", "GitHub", "Jira", "Bitbucket", "Jenkins", "Docker"]
     },
     {
-      title: "Other Technologies",
-      skills: ["REST API", "AMQ Stream", "Red Hat OpenShift", "AMQ Broker", "HTML", "CSS", "Microsoft Excel", "Microsoft Word", "Windows", "Ubuntu"]
+      title: "Web Development",
+      skills: ["HTML", "CSS"]
+    },
+    {
+      title: "Software & Operating Systems",
+      skills: ["Microsoft Excel", "Microsoft Word", "Windows", "Ubuntu"]
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Communication", "Teamwork", "Analysis and Problem Solving"]
     }
   ];
 
@@ -42,13 +50,14 @@ const Skills = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
-              <div key={index} className="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+              <div key={index} className="bg-white rounded-lg p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2">
                   {category.title}
                 </h3>
                 <ul className="space-y-2">
                   {category.skills.map((skill) => (
-                    <li key={skill} className="text-gray-700 text-sm">
+                    <li key={skill} className="text-gray-700 text-sm flex items-center">
+                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></span>
                       {skill}
                     </li>
                   ))}

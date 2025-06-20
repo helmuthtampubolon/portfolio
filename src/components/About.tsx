@@ -66,6 +66,9 @@ const About = () => {
               <p className="text-sm text-gray-600 mb-2"><strong>Location:</strong> Jakarta, Indonesia</p>
               <p className="text-sm text-gray-600 mb-2"><strong>Phone:</strong> (+62) 8-126-232-2051</p>
               <p className="text-sm text-gray-600 mb-2"><strong>Email:</strong> helmuths.tampubolon@gmail.com</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>LinkedIn:</strong> linkedin.com/in/helmuth-simon-tampubolon-18935717a/</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>GitHub:</strong> github.com/helmuthtampubolon</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>GitLab:</strong> gitlab.com/helmuthsimontampubolon</p>
               <p className="text-sm text-gray-600"><strong>Languages:</strong> Indonesian (Expert), English (Intermediate)</p>
             </div>
 
