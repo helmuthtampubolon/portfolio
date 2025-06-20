@@ -45,8 +45,8 @@ const About = () => {
               </p>
               
               <p>
-                Graduate from Institut Teknologi Del with Software Engineering Technology major (GPA: 3.22), 
-                specialized in developing scalable backend solutions and optimizing system performance.
+                Graduate from Institut Teknologi Del (2017-2021) with Software Engineering Technology major (GPA: 3.22). 
+                Final project: "Travel Route Recommendation System Using Genetic Algorithm".
               </p>
             </div>
 
@@ -61,14 +61,21 @@ const About = () => {
               </div>
             </div>
 
+            <div className="bg-gray-100 p-4 rounded-lg">
+              <p className="text-sm text-gray-600 mb-2"><strong>Birth Date:</strong> 12th August 1999</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>Location:</strong> Jakarta, Indonesia</p>
+              <p className="text-sm text-gray-600 mb-2"><strong>Phone:</strong> (+62) 8-126-232-2051</p>
+              <p className="text-sm text-gray-600"><strong>Languages:</strong> Indonesian (Expert), English (Intermediate)</p>
+            </div>
+
             <div className="flex flex-wrap gap-3 pt-6">
               {[
-                'Problem Solving',
-                'Team Collaboration', 
-                'Code Review',
+                'Communication',
+                'Teamwork', 
+                'Analysis & Problem Solving',
                 'System Design',
                 'Performance Optimization',
-                'Security Best Practices'
+                'Microservices Architecture'
               ].map((skill, index) => (
                 <span 
                   key={index}

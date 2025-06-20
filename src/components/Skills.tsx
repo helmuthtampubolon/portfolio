@@ -5,11 +5,11 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["JavaScript", "PHP", "Java", "C", "C++", "SQL"]
+      skills: ["JavaScript", "PHP", "Java", "C", "C++"]
     },
     {
       title: "Backend Frameworks", 
-      skills: ["Express.js", "Laravel", "Lumen", "Spring Boot", "Node.js"]
+      skills: ["Express.js", "Laravel", "Spring Boot", "Node.js", "YII2"]
     },
     {
       title: "Database Management",
@@ -17,7 +17,7 @@ const Skills = () => {
     },
     {
       title: "Cloud & DevOps",
-      skills: ["AWS Lambda", "AWS EC2", "AWS S3", "AWS RDS", "Docker", "Jenkins"]
+      skills: ["AWS Lambda", "AWS EC2", "AWS S3", "AWS RDS", "AWS Batch", "Docker", "Jenkins", "PM2"]
     },
     {
       title: "Development Tools",
@@ -25,7 +25,7 @@ const Skills = () => {
     },
     {
       title: "Other Technologies",
-      skills: ["REST API", "AMQ Stream", "Red Hat OpenShift", "AMQ Broker", "HTML", "CSS", "jQuery"]
+      skills: ["REST API", "AMQ Stream", "Red Hat OpenShift", "AMQ Broker", "HTML", "CSS", "Microsoft Excel", "Microsoft Word", "Windows", "Ubuntu"]
     }
   ];
 

@@ -10,28 +10,29 @@ const WorkExperience = () => {
       location: "Jakarta",
       description: "Responsible for Maintaining (designing, implementing, and optimizing performance) API on the backend of ayo src and ayo qoncierge e-commerce applications using Lumen/Laravel, Lambda Func. (Javascript) and MySQL.",
       achievements: [
-        "Designed and implemented microservices architecture for scalability and flexibility",
-        "Developed AWS Lambda functions (JavaScript) to trigger AWS Batch jobs for automated data processing",
+        "Designed and implemented backend architecture using microservices approach to increase scalability and flexibility",
+        "Developed AWS Lambda function (JavaScript) to trigger AWS Batch job (Laravel) for automated data processing with Parquet files",
         "Reduced API response time and resource usage through database query optimization and Server-Side Processing",
         "Built and integrated Call feature in Ayo Qoncierge application, collaborating with Wiz for real-time services",
-        "Collaborated with DevOps for CI/CD using Jenkins, Docker, and Bitbucket",
-        "Deployed AWS services (EC2, S3, RDS) for improved performance and resilience",
-        "Testing backend using Postman and JMeter"
+        "Collaborated with DevOps for CI/CD using Jenkins, Docker, and Bitbucket for isolated deployment environments",
+        "Deployed AWS services (EC2, S3, RDS) for cloud infrastructure to improve performance and resilience",
+        "Documented backend development on Google Spreadsheet and Postman for API management",
+        "Tested backend using Postman and JMeter for performance validation"
       ],
-      tech: ["Laravel", "Lumen", "MySQL", "AWS Lambda", "JavaScript", "Docker", "Jenkins", "Bitbucket", "AWS EC2", "AWS S3", "AWS RDS", "Postman", "JMeter"]
+      tech: ["Laravel", "Lumen", "MySQL", "AWS Lambda", "JavaScript", "AWS Batch", "Docker", "Jenkins", "Bitbucket", "AWS EC2", "AWS S3", "AWS RDS", "Postman", "JMeter"]
     },
     {
       title: "Technical Consultant Analyst",
-      company: "PT Mitra Integrasi Informatika",
+      company: "PT Mitra Integrasi Informatika (IT Solution Company)",
       period: "October 2021 - October 2022", 
       location: "Jakarta",
-      description: "Developed backend applications for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL with monolithic architecture deployed on premise servers using PM2.",
+      description: "Developed backend application for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL with monolithic architecture deployed on premise servers using PM2.",
       achievements: [
-        "Developed backend applications for telecommunication company (PT Indosat Tbk)",
+        "Developed backend applications for telecommunication company (PT Indosat Tbk) using Express.js stack",
         "Worked on Indonesian Stock Exchange (IDX) application development and deployment",
         "Supported clients during UAT process of applications",
-        "Deployed applications using PM2 on premise servers",
-        "Worked with Red Hat OpenShift and AMQ Broker technologies"
+        "Deployed applications using PM2 on premise servers with monolithic architecture",
+        "Worked with Red Hat OpenShift, AMQ Broker, Java Spring Boot technologies"
       ],
       tech: ["Express.js", "Node.js", "Knex.js", "PostgreSQL", "Java Spring Boot", "Red Hat OpenShift", "AMQ Broker", "PM2"]
     },
@@ -44,8 +45,8 @@ const WorkExperience = () => {
       achievements: [
         "Resolved bugs in existing backend services", 
         "Added new features to Transfree's backend system",
-        "Worked with Node.js and MongoDB stack",
-        "Gained experience in fintech industry"
+        "Worked with Node.js and MongoDB stack for fintech solutions",
+        "Gained hands-on experience in financial technology industry"
       ],
       tech: ["Node.js", "JavaScript", "MongoDB", "REST API"]
     },
@@ -57,11 +58,11 @@ const WorkExperience = () => {
       description: "Guided practical sessions for web development using PHP frameworks and assisted in student assessments.",
       achievements: [
         "Guided practical sessions for web development using PHP",
-        "Taught Laravel framework and YII2 framework",
+        "Taught Laravel framework and YII2 framework to students",
         "Helped lecturers check and assess student exams",
-        "Mentored students in web development best practices"
+        "Mentored students in web development best practices and frameworks"
       ],
-      tech: ["PHP", "Laravel", "YII2", "Web Development"]
+      tech: ["PHP", "Laravel", "YII2", "Web Development", "HTML", "CSS"]
     }
   ];
 
