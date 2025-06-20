@@ -4,20 +4,28 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "PHP", "Java", "C/C++", "SQL"]
+      title: "Programming Languages",
+      skills: ["JavaScript", "PHP", "Java", "C", "C++", "SQL"]
     },
     {
-      title: "Databases", 
-      skills: ["SQLite", "PostgreSQL", "MySQL", "MongoDB"]
+      title: "Backend Frameworks", 
+      skills: ["Express.js", "Laravel", "Lumen", "Spring Boot", "Node.js"]
     },
     {
-      title: "Other",
-      skills: ["HTML", "CSS", "SASS", "SCSS", "Less", "Stylus", "EJS", "Jinja2", "Pug"]
+      title: "Database Management",
+      skills: ["MySQL", "PostgreSQL", "SQL Server", "MongoDB"]
     },
     {
-      title: "Frameworks",
-      skills: ["React", "Next", "Gulp", "Express", "Flask", "Quart", "Laravel", "Spring Boot", "Node.js"]
+      title: "Cloud & DevOps",
+      skills: ["AWS Lambda", "AWS EC2", "AWS S3", "AWS RDS", "Docker", "Jenkins"]
+    },
+    {
+      title: "Development Tools",
+      skills: ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Postman", "JMeter"]
+    },
+    {
+      title: "Other Technologies",
+      skills: ["REST API", "AMQ Stream", "Red Hat OpenShift", "AMQ Broker", "HTML", "CSS", "jQuery"]
     }
   ];
 
@@ -31,8 +39,8 @@ const Skills = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4 border-b border-gray-200 pb-2">

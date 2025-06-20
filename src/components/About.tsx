@@ -1,3 +1,4 @@
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
@@ -14,7 +15,7 @@ const About = () => {
             <div className="relative z-10">
               <img 
                 src="./lovable-uploads/86977474-cd02-4826-82f6-9d6b31eafa2a.png"
-                alt="Helmuth Tampubolon" 
+                alt="Helmuth Simon Tampubolon" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -27,29 +28,31 @@ const About = () => {
 
           <div className="space-y-6">
             <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Backend Developer & System Architect
+              Backend Engineer & System Architect
             </h3>
             
             <div className="text-lg text-gray-600 space-y-4">
               <p>
-                Passionate backend developer with expertise in building scalable, robust server-side applications. 
-                I specialize in creating efficient APIs, managing databases, and implementing secure authentication systems.
+                A Backend Engineer with 3 years of experience in application development and database management. 
+                Proficient in programming languages such as JavaScript, PHP, and Java, and experienced with 
+                frameworks like Express.js, Laravel, and Spring Boot.
               </p>
               
               <p>
-                With experience in multiple programming languages and frameworks, I focus on writing clean, 
-                maintainable code that follows industry best practices and design patterns.
+                Enthusiastic about roles requiring analytical and problem-solving skills, with a strong commitment 
+                to continuous learning in backend development. Experienced in team-based projects and effective 
+                communication, having collaborated with cross-functional teams to deliver scalable and high-performance applications.
               </p>
               
               <p>
-                I enjoy solving complex problems and optimizing system performance to deliver exceptional 
-                user experiences through reliable backend infrastructure.
+                Graduate from Institut Teknologi Del with Software Engineering Technology major (GPA: 3.22), 
+                specialized in developing scalable backend solutions and optimizing system performance.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-600">5+</div>
+                <div className="text-4xl font-bold text-blue-600">3+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">

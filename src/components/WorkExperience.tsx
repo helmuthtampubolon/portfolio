@@ -8,28 +8,32 @@ const WorkExperience = () => {
       company: "PT. Alfa Rekacipta Kreasi (Weekend Inc)",
       period: "March 2023 - Present",
       location: "Jakarta",
-      description: "Responsible for maintaining API backend for ayo src and ayo qoncierge e-commerce applications using Lumen/Laravel and MySQL with microservices architecture.",
+      description: "Responsible for Maintaining (designing, implementing, and optimizing performance) API on the backend of ayo src and ayo qoncierge e-commerce applications using Lumen/Laravel, Lambda Func. (Javascript) and MySQL.",
       achievements: [
-        "Designed and implemented microservices architecture for scalability",
-        "Developed AWS Lambda functions for automated data processing",
-        "Optimized database queries reducing API response time",
-        "Collaborated with DevOps for CI/CD using Jenkins and Docker"
+        "Designed and implemented microservices architecture for scalability and flexibility",
+        "Developed AWS Lambda functions (JavaScript) to trigger AWS Batch jobs for automated data processing",
+        "Reduced API response time and resource usage through database query optimization and Server-Side Processing",
+        "Built and integrated Call feature in Ayo Qoncierge application, collaborating with Wiz for real-time services",
+        "Collaborated with DevOps for CI/CD using Jenkins, Docker, and Bitbucket",
+        "Deployed AWS services (EC2, S3, RDS) for improved performance and resilience",
+        "Testing backend using Postman and JMeter"
       ],
-      tech: ["Laravel", "MySQL", "AWS Lambda", "Docker", "Jenkins", "Microservices"]
+      tech: ["Laravel", "Lumen", "MySQL", "AWS Lambda", "JavaScript", "Docker", "Jenkins", "Bitbucket", "AWS EC2", "AWS S3", "AWS RDS", "Postman", "JMeter"]
     },
     {
       title: "Technical Consultant Analyst",
       company: "PT Mitra Integrasi Informatika",
       period: "October 2021 - October 2022", 
       location: "Jakarta",
-      description: "Developed backend applications for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL with monolithic architecture.",
+      description: "Developed backend applications for PT Indosat Tbk using Express.js, Knex.js and PostgreSQL with monolithic architecture deployed on premise servers using PM2.",
       achievements: [
-        "Developed backend applications for telecommunication company",
-        "Worked on Indonesian Stock Exchange (IDX) projects",
-        "Supported clients during UAT process",
-        "Deployed applications using PM2 on premise servers"
+        "Developed backend applications for telecommunication company (PT Indosat Tbk)",
+        "Worked on Indonesian Stock Exchange (IDX) application development and deployment",
+        "Supported clients during UAT process of applications",
+        "Deployed applications using PM2 on premise servers",
+        "Worked with Red Hat OpenShift and AMQ Broker technologies"
       ],
-      tech: ["Express.js", "PostgreSQL", "Java Spring Boot", "Red Hat OpenShift", "AMQ Broker"]
+      tech: ["Express.js", "Node.js", "Knex.js", "PostgreSQL", "Java Spring Boot", "Red Hat OpenShift", "AMQ Broker", "PM2"]
     },
     {
       title: "Backend Developer Intern",
@@ -38,12 +42,26 @@ const WorkExperience = () => {
       location: "Jakarta",
       description: "Involved in projects utilizing JavaScript (Node.js Framework) and MongoDB for financial transfer services.",
       achievements: [
-        "Resolved bugs in existing backend services",
+        "Resolved bugs in existing backend services", 
         "Added new features to Transfree's backend system",
         "Worked with Node.js and MongoDB stack",
         "Gained experience in fintech industry"
       ],
       tech: ["Node.js", "JavaScript", "MongoDB", "REST API"]
+    },
+    {
+      title: "Teaching Assistant for Web Development Course",
+      company: "Institut Teknologi Del",
+      period: "May 2021 - August 2021",
+      location: "Laguboti",
+      description: "Guided practical sessions for web development using PHP frameworks and assisted in student assessments.",
+      achievements: [
+        "Guided practical sessions for web development using PHP",
+        "Taught Laravel framework and YII2 framework",
+        "Helped lecturers check and assess student exams",
+        "Mentored students in web development best practices"
+      ],
+      tech: ["PHP", "Laravel", "YII2", "Web Development"]
     }
   ];
 
@@ -56,7 +74,7 @@ const WorkExperience = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            My professional journey as a Backend Engineer with 2.5+ years of experience
+            My professional journey as a Backend Engineer with 3+ years of experience
           </p>
         </div>
 
